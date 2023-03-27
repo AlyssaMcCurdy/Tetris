@@ -47,7 +47,7 @@ int main() {
 
   // Loads in logo.png from files
   sf::Texture LogoTex;
-  if(!LogoTex.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/logo.png")) {
+  if(!LogoTex.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/logo.png")) {
       cout << "Could not load Tetris Logo." << endl;
       return -1;
   } // loads logo.png
@@ -61,7 +61,7 @@ int main() {
 
   // Loads in blueboxBG.jpg from files
   sf::Texture BoxTex;
-  if(!BoxTex.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/blueboxBG.jpg")) {
+  if(!BoxTex.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/blueboxBG.jpg")) {
       cout << "Could not load Box Background." << endl;
       return -1;
   }
@@ -77,7 +77,7 @@ int main() {
 
   // Loads in Plane.png
   sf::Texture PlaneTex;
-  if(!PlaneTex.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/Plane.png")) {
+  if(!PlaneTex.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/Plane.png")) {
       cout << "Could not load Main Background." << endl;
       return -1;
   }
@@ -95,7 +95,7 @@ int main() {
 
   // Loads border_blocks.png from files
   sf::Texture BorderBlocks;
-  if(!BorderBlocks.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/border_blocks.png")) {
+  if(!BorderBlocks.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/border_blocks.png")) {
       cout << "Could not load Box Background." << endl;
       return -1;
   }
@@ -323,70 +323,70 @@ int main() {
 
   // 2x2 square texture
   sf::Texture squaretexture;
-  if (!squaretexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/square.png")) // loads square.png
+  if (!squaretexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/square.png")) // loads square.png
       return -1;
   square.setTexture(&squaretexture);
 
 
   // 1x4 rectangle texture
   sf::Texture rectangletexture;
-  if (!rectangletexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/rectangle.png"))
+  if (!rectangletexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/rectangle.png"))
       return -1;
   rectangle.setTexture(&rectangletexture);
 
 
   // L texture
   sf::Texture eltexture;
-  if (!eltexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/el.png"))
+  if (!eltexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/el.png"))
       return -1;
   el.setTexture(&eltexture);
 
 
   // backwards L texture
   sf::Texture el_lefttexture;
-  if (!el_lefttexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/el_left.png"))
+  if (!el_lefttexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/el_left.png"))
       return -1;
   el_left.setTexture(&el_lefttexture);
 
 
   // S texture
   sf::Texture estexture;
-  if (!estexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/es.png"))
+  if (!estexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/es.png"))
       return -1;
   es.setTexture(&estexture);
 
 
   // backwards S texture
   sf::Texture es_righttexture;
-  if (!es_righttexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML//es_right.png"))
+  if (!es_righttexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML//es_right.png"))
       return -1;
   es_right.setTexture(&es_righttexture);
 
 
   // T texture
   sf::Texture teetexture;
-  if (!teetexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/tee.png"))
+  if (!teetexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/tee.png"))
       return -1;
   tee.setTexture(&teetexture);
 
 
   // 1x1 square texture
   sf::Texture singletexture;
-  if (!singletexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/single.png"))
+  if (!singletexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/single.png"))
       return -1;
   single.setTexture(&singletexture);
 
 
   // 1x2 rectangle texture
   sf::Texture small_rectangletexture;
-  if (!small_rectangletexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/small_rectangle.png"))
+  if (!small_rectangletexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/small_rectangle.png"))
       return -1;
   small_rectangle.setTexture(&small_rectangletexture);
 
 
   // 2x3 rectangle texture
   sf::Texture large_rectangletexture;
-  if (!large_rectangletexture.loadFromFile("C:/Users/hoyen/CLionProjects/HelloSFML/large_rectangle.png"))
+  if (!large_rectangletexture.loadFromFile("C:/Users/khang/CLionProjects/HelloSFML/large_rectangle.png"))
       return -1;
   large_rectangle.setTexture(&large_rectangletexture);
 
